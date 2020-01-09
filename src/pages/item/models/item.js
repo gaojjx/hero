@@ -1,4 +1,4 @@
-import {getItems} from '../services/api'
+import {getItems} from 'services/api'
 
 export default {
     namespace: 'item',
@@ -24,6 +24,7 @@ export default {
     effects: {
         *fetch(action, {call, put}) {
             const items = yield call(getItems)
+            console.log(items)
             yield put({
                 type: 'get',
                 payload: {

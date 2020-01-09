@@ -1,4 +1,4 @@
-import {getSummoners} from '../services/api'
+import {getSummoners} from 'services/api'
 
 export default {
     namespace: 'summoner',

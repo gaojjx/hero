@@ -1,5 +1,5 @@
 
-import styles from './summoner.css';
+import styles from './index.css';
 import { connect } from 'dva';
 
 const Summoner = ({summoner}) => {

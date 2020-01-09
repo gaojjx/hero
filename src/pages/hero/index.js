@@ -1,5 +1,5 @@
 
-import styles from './hero.css';
+import styles from './index.css';
 import { connect } from 'dva';
 
 const Hero = ({hero}) => {

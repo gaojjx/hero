@@ -1,5 +1,5 @@
 
-import styles from './item.css';
+import styles from './index.css';
 import { connect } from 'dva';
 
 const Item = ({item}) => {

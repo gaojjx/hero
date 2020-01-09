@@ -1,6 +1,12 @@
+const path = require('path')
 // ref: https://umijs.org/config/
 export default {
   treeShaking: true,
+  alias: {
+    services: path.resolve(__dirname, 'src/services'),
+    utils: path.resolve(__dirname, 'src/utils'),
+    models: path.resolve(__dirname, 'src/models'),
+  },
   routes: [
     {
       path: '/',

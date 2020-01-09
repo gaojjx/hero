@@ -1,4 +1,4 @@
-import {getHerolist, getHeroDetails} from '../services/api';
+import {getHerolist, getHeroDetails} from 'services/api';
 
 export default {
   namespace: 'hero',
